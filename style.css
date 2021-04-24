@@ -3,7 +3,8 @@ body{
     background-image: url(./imgs/bg\ img.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
+    background-color:aliceblue;
 }
 .logo{
     width: 150px;
@@ -24,37 +25,58 @@ li{
 a{
     text-decoration: none;
 }
-.header-wrapper a:hover{
-    color: red;
-    
-}
-.home{
-    text-decoration: underline;
+a:hover{
+    text-shadow: 2px red;
 }
 .header-wrapper{
     background-color: aqua;
     padding: 15px;
     border-bottom: 5px solid black;
 }
-.contents{
-    padding-left: 600px;
-    padding-top: 20px;
+.products{
+    text-align: center;
+    background-color: aliceblue;
 }
-p{
-    width: 500px;
-    padding: 20px;
+.product{
+    text-decoration: underline;
 }
-.branches{
-    padding-left: 600px; 
-    
-}.branches a{
-    border: 1px solid rebeccapurple;
-    padding: 5px;
-    margin: 10px;
+h1{
+    border: 1px solid black ;
+    margin: 30px;
     border-radius: 20px;
-    box-shadow: inset 2px white;
-}  
-.branches a:hover{
-    background-color: blueviolet;
-    color: aliceblue;
+}
+.img1{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.img3{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.more{
+    font-size: 40px;
+    text-decoration: none;float: right;
+    margin: 30px;
+}
+.footwear{
+    border: 1px solid black;
+}
+.Fashion-Accessories{
+    border: 1px solid black;
+}
+.jewellery{
+    border: 1px solid black;
 }
