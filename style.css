@@ -1,0 +1,60 @@
+body{
+    font-family: 'Acme', sans-serif;
+    background-image: url(./imgs/bg\ img.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    font-size: 25px;
+    padding:6px;
+   
+}
+a{
+    text-decoration: none;
+}
+.header-wrapper a:hover{
+    color: red;
+    
+}
+.home{
+    text-decoration: underline;
+}
+.header-wrapper{
+    background-color: aqua;
+    padding: 15px;
+    border-bottom: 5px solid black;
+}
+.contents{
+    padding-left: 600px;
+    padding-top: 20px;
+}
+p{
+    width: 500px;
+    padding: 20px;
+}
+.branches{
+    padding-left: 600px; 
+    
+}.branches a{
+    border: 1px solid rebeccapurple;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: inset 2px white;
+}  
+.branches a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
